@@ -16,7 +16,7 @@ public class test {
     @GetMapping("/test")
     public ResponseEntity<String> test(){
 
-        String response = "Hello this is the First Edition";
+        String response = "Hello this is the Second Edition";
 
         return ResponseEntity.ok(response);
     }
